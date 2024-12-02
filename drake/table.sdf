@@ -31,12 +31,6 @@
             <size>1.5 0.8 0.03</size>
           </box>
         </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Wood</name>
-          </script>
-        </material>
       </visual>
       <!-- Shortened legs to 0.4 meters -->
       <collision name="front_left_leg">
@@ -56,12 +50,6 @@
             <length>0.4</length>  <!-- 脚の長さを0.4に変更 -->
           </cylinder>
         </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
-          </script>
-        </material>
       </visual>
       <collision name="front_right_leg">
         <pose>0.68 0.37 0.2 0 0 0</pose> <!-- 脚の中心位置を0.2に調整 -->
@@ -80,12 +68,6 @@
             <length>0.4</length>  <!-- 脚の長さを0.4に変更 -->
           </cylinder>
         </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
-          </script>
-        </material>
       </visual>
       <collision name="back_right_leg">
         <pose>-0.68 0.37 0.2 0 0 0</pose> <!-- 脚の中心位置を0.2に調整 -->
@@ -104,12 +86,6 @@
             <length>0.4</length>  <!-- 脚の長さを0.4に変更 -->
           </cylinder>
         </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
-          </script>
-        </material>
       </visual>
       <collision name="back_left_leg">
         <pose>-0.68 1.13 0.2 0 0 0</pose> <!-- 脚の中心位置を0.2に調整 -->
@@ -128,12 +104,6 @@
             <length>0.4</length>  <!-- 脚の長さを0.4に変更 -->
           </cylinder>
         </geometry>
-        <material>
-          <script>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
-          </script>
-        </material>
       </visual>
     </link>
   </model>
