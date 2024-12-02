@@ -3,15 +3,15 @@
     <link name="arrow_body_link">
       <pose>0 0 0 0 0 0</pose>
       <inertial>
-        <mass>1.0</mass>
+        <mass>0.1</mass>
         <pose>0.01689 0.04182 0.15050 0 0 0</pose>
         <inertia>
-          <ixx>3.90660e-02</ixx>
-          <ixy>5.55843e-05</ixy>
-          <ixz>1.29595e-03</ixz>
-          <iyy>3.90056e-02</iyy>
-          <iyz>-2.88058e-04</iyz>
-          <izz>4.19055e-04</izz>
+          <ixx>3.90660e-03</ixx>
+          <ixy>5.55843e-06</ixy>
+          <ixz>1.29595e-04</ixz>
+          <iyy>3.90056e-03</iyy>
+          <iyz>-2.88058e-05</iyz>
+          <izz>4.19055e-05</izz>
         </inertia>
       </inertial>
       <visual name="visual">
