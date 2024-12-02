@@ -6,5 +6,5 @@ docker build -t drake .
 ```
 ## Run docker
 ```
-docker run -it --network host -v $(pwd):/workspace -w /workspace drake 
+docker run -it --network host --gpus all -v $(pwd):/workspace -w /workspace drake
 ```
